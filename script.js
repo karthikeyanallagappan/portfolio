@@ -22,3 +22,30 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
+
+// Get all button elements
+let buttons = document.querySelectorAll("button");
+
+// Find the button with the text 'Contact Me'
+let contactMeButton = null;
+buttons.forEach(function(button) {
+    if (button.textContent.trim() === "Contact Me") {
+        contactMeButton = button;
+    }
+});
+
+// If the button is found, move it to the target element
+if (contactMeButton) {
+    // Select the target element with the ID 'contact-loc'
+    let contactLoc = document.getElementById('contact-loc');
+
+    // Check if the target element exists
+    if (contactLoc) {
+        // Append the button to the target element
+        contactLoc.appendChild(contactMeButton);
+    } else {
+        console.error("Element with ID 'contact-loc' not found.");
+    }
+} else {
+    console.error("Button with text 'Contact Me' not found.");
+}
