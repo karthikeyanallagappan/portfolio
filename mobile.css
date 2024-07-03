@@ -1,0 +1,55 @@
+/* Mobile specific styles */
+@media only screen and (max-width: 786px) {
+  /* Adjusting header landing */
+  header .landing {
+    padding: 0 1rem;
+  }
+
+  header .intro h3 {
+    font-size: 2rem;
+  }
+
+  header .socials {
+    right: 2%;
+    bottom: 26%;
+  }
+
+  /* Adjusting about section */
+  section.about .description {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  section.about .line {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  /* Adjusting skills section */
+  section.skills .skill-card img {
+    height: 80px;
+    width: 80px;
+  }
+
+  section.skills .skill-card h2 {
+    font-size: 1.1rem;
+  }
+
+  /* Adjusting experience section */
+  section.experience .exp h2 {
+    font-size: 1.25rem;
+  }
+
+  section.experience .exp h3 {
+    font-size: 1.1rem;
+  }
+
+  section.experience .exp p {
+    font-size: 0.9rem;
+  }
+
+  /* Contact section form controls */
+  section.contact .form-control {
+    font-size: 0.9rem;
+  }
+}
