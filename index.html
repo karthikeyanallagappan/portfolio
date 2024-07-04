@@ -7,138 +7,203 @@
     <title>Karthikeyan_DevOps</title>
     <link rel="icon" type="image/png" href="https://img.icons8.com/?size=100&id=CLa3T2WlbrOP&format=png&color=000000">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 786px)">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="custom-container" style="width: 100%;">
+            <a class="navbar-brand" href="#">
+                <img src="asset/devops.svg" height="40" alt="DevOps Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#MySkills-loc" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#Experience-loc" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#contact-loc" class="nav-link">Contact</a></li>
+                    <li class="nav-item"><a href="Karthikeyan_DevOps.pdf" class="nav-link">Resume</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <header>
-        <nav>
-            <img src="asset/devops.svg" alt="">
-            <ul>
-                <li><a href="#" class="nav-link">About</a></li>
-                <li><a href="#MySkills-loc" class="nav-link">Skills</a></li>
-                <li><a href="#Experience-loc"class="nav-link">Experience</a></li>
-                <li><a href="#contact-loc"class="nav-link">Contact</a></li>
-                <li><a href="Karthikeyan_DevOps.pdf" class="nav-link">Resume</a></li>
-            </ul>
-            <div class="search">
-                <input type="text" placeholder="search">
-                <i class="ri-search-line"></i>
-            </div>
-        </nav>
+ 
         <div class="landing">
-            <div class="intro">
+            <div class="intro text-center">
                 <h3>I'M <span>Karthikeyan C</span><br>DevOps Engineer</h3>
-                <!--<button>Contact Me</button>-->
-                <a href="#contact-loc"><button>Contact Me</button></a>
+                <a href="#contact-loc"><button class="btn btn-outline-warning">Contact Me</button></a>
             </div>
-            <div class="socials">
-                <div class="line"></div>
-                <a href="https://www.linkedin.com/in/karthikeyan-tse/"><i class="ri-linkedin-fill"></i></a>
-                <a href="https://wa.me/+918778503426?text=Hello-Karthik"><i class="ri-whatsapp-line"></i></a>
+            <div class="socials d-flex flex-column align-items-center">
+                <div class="line bg-warning mb-3" style="height: 15vh; width: 2.5px;"></div>
+                <a href="https://www.linkedin.com/in/karthikeyan-tse/"><i class="ri-linkedin-fill text-white"></i></a>
+                <a href="https://wa.me/+918778503426?text=Hello-Karthik"><i class="ri-whatsapp-line text-white"></i></a>
             </div>
         </div>
     </header>
-    <section class="about">
-        <h1>About</h1>
-        <div class="description">
-            <div class="line"></div>
-            <p>Having around 4.5+ years of hands-on experience in IT infrastructure services with significant expertise in DevOps, AWS, Linux, and Windows. I have worked on designing scalable and efficient software systems, collaborating with cross-functional teams to resolve complex technical issues, and managing CI/CD pipelines.</p>
-        </div>
-    </section>
-    <class="skills" id="MySkills-loc">
-    <section class="skills">
-        <h1>My Skills</h1>
-        <div class="cards">
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=33039&format=png&color=000000" alt="">
-                <h2>AWS</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="">
-                <h2>Docker</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=39292&format=png&color=000000" alt="">
-                <h2>Jenkins</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=38389&format=png&color=000000" alt="">
-                <h2>Git</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=WbRVMGxHh74X&format=png&color=000000" alt="">
-                <h2>Bash</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="">
-                <h2>MySQL</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="">
-                <h2>Linux</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=gXoJoyTtYXFg&format=png&color=000000" alt="">
-                <h2>Windows</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=oROcPah5ues6&format=png&color=000000" alt="">
-                <h2>Jira</h2>
-            </div>
-            <div class="skill-card">
-                <img src="https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000" alt="">
-                <h2>Kubernetes</h2>
-            </div>
-        </div>
-    </section>
-    
-    <section class="experience" id="Experience-loc">
-        <div class="darker-div"></div>
-        <h1>Experience</h1>
-        <div class="lighter-div">
-            <div class="exp">
-                <h2>Software Engineer</h2>
-                <div class="exp-desc">
-                    <h3>Newgen Digital Works Pvt Limited, Chennai</h3>
-                    <p>July 2023 – Present<br>Designed scalable and efficient software systems, ensuring high-quality deliverables through rigorous testing and code review processes. Collaborated with cross-functional teams to identify and resolve complex technical issues, contributing to project success.</p>
-                </div>
-            </div>
-            <div class="exp">
-                <h2>DevOps Engineer/Application Support Analyst</h2>
-                <div class="exp-desc">
-                    <h3>Hogarth Worldwide Limited, Chennai</h3>
-                    <p>May 2022 – July 2023<br>Management and administration of JIRA, including project creation, dashboard setup, and user access management. Analysis and triage of DevOps tickets, creating, assigning, and tracking JIRA issues. Classification and troubleshooting of DevOps issues for fix analysis and root cause analysis (RCAs). Administration of Confluence, SharePoint, and Gitlab platforms. Implementation of various development, testing, automation tools, and IT infrastructure. Configuration of settings for development, testing, release, update, and support processes for DevOps cycles. Continuous improvement and building of continuous integration, continuous development, and continuous deployment pipelines (CI/CD pipelines). Encouragement and building of automated processes wherever possible. Understanding of cybersecurity measures and comprehension of vulnerability assessment reports. Administration of infrastructure, including firewalls, databases, malware protection software, and other processes. Coordination and communication within the team and with customers. Managing periodic reporting on progress to management and customers.</p>
-                </div>
-            </div>
-            <div class="exp">
-                <h2>Support Desk Associate</h2>
-                <div class="exp-desc">
-                    <h3>Futurenet Technologies India Pvt Limited, Chennai</h3>
-                    <p>August 2019 – May 2022<br>Installed and configured computer hardware, operating systems, and applications in Linux and Windows environments. Monitored and maintained computer systems and networks. Provided support to staff or clients through a series of actions, either face-to-face or over the telephone, to help set up systems or resolve issues. Performed root cause analysis on various service-impacting events. Troubleshooted system and network problems, diagnosing and solving hardware and software faults. Provided support, including procedural documentation and relevant reports.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section
-class="contact-me" id="contact-loc">
-<h1>Contact Me</h1>
-<div class="contact">
-<div class="contact-card">
-<i class="ri-message-3-line"></i>
-<p>kathiram100@gmail.com</p>
-</div>
-<div class="contact-card">
-<i class="ri-phone-line"></i>
-<p>+918778503426</p>
-</div>
-<div class="contact-card">
-<i class="ri-map-pin-3-line"></i>
-<p>Chennai, India</p>
-</div>
-</div>
-</section>
-<script src="script.js"></script>
 
+    <section class="about py-5">
+        <div class="container">
+            <h1 class="text-white">About</h1>
+            <hr>
+            <div class="description d-flex align-items-start">
+                <div class="line bg-warning" style="height: 2.5px; width: 400px; margin-right: 32px;"></div>
+                <p class="text-white">Having around 4.5+ years of hands-on experience in IT infrastructure services with
+                    significant expertise in DevOps, AWS, Linux, and Windows. I have worked on designing scalable and
+                    efficient software systems, collaborating with cross-functional teams to resolve complex technical
+                    issues, and managing CI/CD pipelines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills py-5" id="MySkills-loc">
+        <div class="container text-center">
+            <h1 class="text-white">My Skills</h1>
+            <hr style="height:2px;border-width:0;color:gray;background-color:#ffc107">
+            <div class="row">
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=33039&format=png&color=000000" alt="">
+                    <h2 class="text-white">AWS</h2>
+                </div>
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=cdYUlRaag9G9&format=png&color=000000" alt="">
+                    <h2 class="text-white">Docker</h2>
+                </div>
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=39292&format=png&color=000000" alt="">
+                    <h2 class="text-white">Jenkins</h2>
+                </div>
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=38389&format=png&color=000000" alt="">
+                    <h2 class="text-white">Git</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=WbRVMGxHh74X&format=png&color=000000" alt="">
+                    <h2 class="text-white">Bash</h2>
+                </div>
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=UFXRpPFebwa2&format=png&color=000000" alt="">
+                    <h2 class="text-white">MySQL</h2>
+                </div>
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=17842&format=png&color=000000" alt="">
+                    <h2 class="text-white">Linux</h2>
+                </div>
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=gXoJoyTtYXFg&format=png&color=000000" alt="">
+                    <h2 class="text-white">Windows</h2>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=oROcPah5ues6&format=png&color=000000" alt="">
+                    <h2 class="text-white">Jira</h2>
+                </div>
+                <div class="col-md-3 skill-card">
+                    <img src="https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000" alt="">
+                    <h2 class="text-white">Kubernetes</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience py-5" id="Experience-loc">
+        <div class="container">
+            <h1 class="text-white text-center">Experience</h1>
+            <hr style="height:2px;border-width:0;color:gray;background-color:#ffc107">
+            <div class="exp mt-4">
+                <h2 class="text-warning">Software Engineer</h2>
+                <div class="exp-desc text-white">
+                    <h3>Newgen Digital Works Pvt Limited, Chennai</h3>
+                    <p>July 2023 – Present<br>Designed scalable and efficient software systems, ensuring high-quality
+                        deliverables through rigorous testing and code review processes. Collaborated with
+                        cross-functional teams to identify and resolve complex technical issues, contributing to project
+                        success.</p>
+                </div>
+            </div>
+            <div class="exp mt-4">
+                <h2 class="text-warning">DevOps Engineer/Application Support Analyst</h2>
+                <div class="exp-desc text-white">
+                    <h3>Hogarth Worldwide Limited, Chennai</h3>
+                    <p>May 2022 – July 2023<br>Management and administration of JIRA, including project creation,
+                        dashboard setup, and user access management. Analysis and triage of DevOps tickets, creating,
+                        assigning, and tracking JIRA issues. Classification and troubleshooting of DevOps issues for fix
+                        analysis and root cause analysis (RCAs). Administration of Confluence, SharePoint, and Gitlab
+                        platforms. Implementation of various development, testing, automation tools, and IT
+                        infrastructure. Configuration of settings for development, testing, release, update, and support
+                        processes for DevOps cycles. Continuous improvement and building of continuous integration,
+                        continuous development, and continuous deployment pipelines (CI/CD pipelines). Encouragement and
+                        building of automated processes wherever possible. Understanding of cybersecurity measures and
+                        comprehension of vulnerability assessment reports. Administration of infrastructure, including
+                        firewalls, databases, malware protection software, and other processes. Coordination and
+                        communication within the team and with customers. Managing periodic reporting on progress to
+                        management and the customer.</p>
+                </div>
+            </div>
+            <div class="exp mt-4">
+                <h2 class="text-warning">Support Desk Associate</h2>
+                <div class="exp-desc text-white">
+                    <h3>Futurenet Technologies India Pvt Limited, Chennai</h3>
+                    <p>October 2019 – April 2022<br>Responsible for monitoring systems, network infrastructure, and
+                        servers, ensuring uptime and functionality. Troubleshooting technical issues related to
+                        hardware, software, and network connectivity. Providing technical support to end-users,
+                        resolving issues via phone, email, or remote assistance. Coordinating with IT teams to escalate
+                        and resolve complex issues promptly. Managing user accounts, permissions, and access control.
+                        Documenting support activities, solutions, and best practices for future reference. Assisting in
+                        the deployment and configuration of new hardware and software systems. Conducting routine
+                        maintenance and updates to ensure systems' security and performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section class="contact py-5" id="contact-loc">
+        <div class="container2">
+            <h1 class="text-white text-center">Contact</h1>
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Name" id="name" required />
+                    <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Phone" id="phone" required />
+                    <div class="invalid-feedback">Please enter your phone number.</div>
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" placeholder="Email" id="email" required />
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Subject" id="subject" required />
+                    <div class="invalid-feedback">Please enter a subject.</div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" placeholder="Message" id="message" required></textarea>
+                    <div class="invalid-feedback">Please enter your message.</div>
+                </div>
+            <button type="submit" class="btn btn-primary btn-block btn-small" style="background-color:#f4b400;">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer class="bg-dark py-3">
+        <div class="container text-center">
+            <p class="text-white mb-0">Developed by Karthikeyan C. &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
